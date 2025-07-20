@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'love';
+            src: url('fontes/Amore.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        /*
+            Tipos de format()
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype (aple advanced typography)
+            - svg
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1{
+            font-family: 'love', arial;
+            font-size: 32px;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tiítulo</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus omnis molestias perspiciatis eum tempora, labore minus vitae sint laudantium reprehenderit totam assumenda fugit incidunt. Consequatur laborum ipsam aut molestias ad.</p>
+</body>
+</html>
