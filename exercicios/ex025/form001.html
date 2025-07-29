@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu primeiro formulário</h1>
+    <form action="cadastro.php" autocomplete="off"> <!-- autocomplete="off" serve para tirar o preencher automatico dos formularios-->
+        <P><label for="inome">Nome:</label> 
+            <input type="text" name="nome" id="inome"></P> <!--por didatica no id foi adicionado o i no inome-->
+        <p><label for="isobrenome">Sobrenome:</label> 
+            <input type="text" name="sobrenome" id="isobrenome"></p><!--por didatica foi adicionado o i no isobrenome-->
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
