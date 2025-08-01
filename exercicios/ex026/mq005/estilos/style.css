@@ -6,7 +6,7 @@
     padding: 0px;
 }
 
-body {
+body, html {
     background-color: lightgrey;
 }
 
