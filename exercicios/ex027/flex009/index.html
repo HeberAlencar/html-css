@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+    <style>
+        div.conteiner { /* config do pai */
+            background-color: salmon;
+            display: flex;
+            flex-flow: row nowrap;
+        }
+
+        div.item { /*config do filho */
+            background-color: lightsteelblue;
+            border: 1px solid black;
+            text-align: center;
+            flex-basis: 150px;
+        }
+
+    </style>
+    
+</head>
+<body>
+    <div class="conteiner"><!-- Pai -->
+        <div class="item">A</div> <!-- DA LETRA A ATÉ O G SÃO FILHOS-->
+        <div class="item">Outro conteú do</div>
+        <div class="item">C</div>
+        <div class="item">Conteúdo um pouco maior</div>
+        <div class="item">E</div>
+        <div class="item">Conteúdo maior ainda, que vai ocupar mais espaço.</div>
+        <div class="item">G</div>
+    </div>
+</body>
+</html>
