@@ -15,7 +15,22 @@
             background-color: lightsteelblue;
             border: 1px solid black;
             text-align: center;
-            
+            flex-basis: 200px;
+        }
+
+        div#cxA {
+            flex-shrink: 0;
+            flex-grow: 0;
+        }
+
+         div#cxB {
+            flex-shrink: 0;
+            flex-grow: 0;
+        }
+
+         div#cxC {
+            flex-shrink: 0;
+            flex-grow: 0;
         }
 
     </style>
@@ -23,13 +38,10 @@
 </head>
 <body>
     <div class="conteiner"><!-- Pai -->
-        <div class="item">A</div> <!-- DA LETRA A ATÉ O G SÃO FILHOS-->
-        <div class="item">Outro conteú do</div>
-        <div class="item">C</div>
-        <div class="item">Conteúdo um pouco maior</div>
-        <div class="item">E</div>
-        <div class="item">Conteúdo maior ainda, que vai ocupar mais espaço.</div>
-        <div class="item">G</div>
+        <div class="item" id="cxA">A</div> <!-- DA LETRA A ATÉ O G SÃO FILHOS-->
+        <div class="item" id="cxB">B</div>
+        <div class="item" id="cxC">C</div>
+
     </div>
 </body>
 </html>

@@ -18,18 +18,39 @@
             
         }
 
+        div#cxA {
+         /* flex-shrink: 0;
+            flex-grow: 1;
+            flex-basis: 200px; */
+
+            flex: 1 0 200px;
+        }
+
+         div#cxB {
+         /* flex-shrink: 1;
+            flex-grow: 1;
+            flex-basis: 150px; */
+
+            flex: 1 1 150px;
+        }
+
+         div#cxC {
+         /* flex-shrink: 8;
+            flex-grow: 1;
+            flex-basis: auto; */
+
+            flex: 1 8 auto;
+        }
+
     </style>
     
 </head>
 <body>
     <div class="conteiner"><!-- Pai -->
-        <div class="item">A</div> <!-- DA LETRA A ATÉ O G SÃO FILHOS-->
-        <div class="item">Outro conteú do</div>
-        <div class="item">C</div>
-        <div class="item">Conteúdo um pouco maior</div>
-        <div class="item">E</div>
-        <div class="item">Conteúdo maior ainda, que vai ocupar mais espaço.</div>
-        <div class="item">G</div>
+        <div class="item" id="cxA">A</div> <!-- DA LETRA A ATÉ O G SÃO FILHOS-->
+        <div class="item" id="cxB">B</div>
+        <div class="item" id="cxC">C</div>
+
     </div>
 </body>
 </html>
